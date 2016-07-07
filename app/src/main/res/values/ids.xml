@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_settings" type="id" />
+
+    <item name="main_content" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="tabs" type="id" />
+    <item name="container" type="id" />
+    <item name="fab" type="id" />
+
+    <item name="recycler_cancionero" type="id" />
+
+    <item name="tv_titulo_cancionero" type="id" />
+    <item name="tv_contenido_cancionero" type="id" />
+    <item name="tv_esuchar_cancionero" type="id" />
+    <item name="recycler_novedades" type="id" />
+    <item name="swipe_novedades" type="id" />
+    <item name="tv_titulo_noticia" type="id" />
+    <item name="iv_imagen_noticia" type="id" />
+    <item name="tv_contenido_noticia" type="id" />
+    <item name="fr_mapa" type="id" />
+    <item name="tv_dia_movilizacion" type="id" />
+    <item name="tv_horario_movilizacion" type="id" />
+    <item name="mapcontainer" type="id" />
+    <item name="wv_radio" type="id" />
+
+
+</resources>

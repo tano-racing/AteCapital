@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blanco"
+    android:orientation="vertical">
+
+
+
+    <!--<com.alamkanak.weekview.WeekView-->
+        <!--android:id="@id/wv_radio"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:eventTextColor="@android:color/white"-->
+        <!--app:textSize="12sp"-->
+        <!--android:layout_weight="0.8"-->
+        <!--app:hourHeight="60dp"-->
+        <!--app:headerColumnPadding="8dp"-->
+        <!--app:headerColumnTextColor="#8f000000"-->
+        <!--app:headerRowPadding="12dp"-->
+        <!--app:columnGap="8dp"-->
+        <!--app:noOfVisibleDays="3"-->
+        <!--app:headerRowBackgroundColor="#ffefefef"-->
+        <!--app:dayBackgroundColor="#05000000"-->
+        <!--app:todayBackgroundColor="#1848adff"-->
+        <!--app:headerColumnBackground="#ffffffff"/>-->
+
+
+    <com.joanzapata.iconify.widget.IconButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/play"
+        android:text="{fa-play}"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.joanzapata.iconify.widget.IconButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pause"
+        android:text="{fa-stop}"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/play"
+        android:layout_toStartOf="@+id/play" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/pause"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/skin"/>
+
+
+
+</RelativeLayout>

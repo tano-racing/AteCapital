@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ATE Capítal</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="escuchar_cancion">{fa-play-circle} Escuchar</string>
+    <string name="detener">{fa-stop} Detener</string>
+    <string name="escuchar">{fa-play} Escuchar</string>
+</resources>
